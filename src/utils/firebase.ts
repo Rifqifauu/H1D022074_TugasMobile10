@@ -11,9 +11,13 @@ const firebaseConfig = {
     appId: "1:951528750225:web:bd200b8fc4170311e71330"
   };
   
+// modifikasi src/utils/firebase.ts
+import { getFirestore } from 'firebase/firestore';
+
 
 const firebase = initializeApp(firebaseConfig);
 const auth = getAuth(firebase);
 const googleProvider = new GoogleAuthProvider();
+const db = getFirestore(firebase);
 
-export { auth, googleProvider };
+export { auth, googleProvider, db };

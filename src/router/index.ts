@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import HomePage from '@/views/HomePage.vue';
-import LoginPage from '../views/LoginPage.vue';
+import LoginPage from '@/views/LoginPage.vue';
 import { useAuthStore } from '@/stores/auth';
 import ProfilePage from '@/views/ProfilePage.vue';
 import { onAuthStateChanged } from 'firebase/auth';

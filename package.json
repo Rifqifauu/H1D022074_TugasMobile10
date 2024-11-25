@@ -12,6 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@capacitor/android": "6.1.2",
     "@capacitor/app": "6.0.1",
     "@capacitor/core": "6.1.2",
     "@capacitor/haptics": "6.0.1",
@@ -21,6 +22,7 @@
     "@ionic-native/in-app-browser": "^5.36.0",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
+    "date-fns": "^4.1.0",
     "firebase": "^11.0.1",
     "ionicons": "^7.0.0",
     "pinia": "^2.2.6",
